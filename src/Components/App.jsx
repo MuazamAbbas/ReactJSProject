@@ -1,14 +1,16 @@
-import React from "react";
-import Netflix from "./Netflix";
-import Amazone from "./Amazone";
+import React from 'react';
 
-const favSeries = "amazone";
 
-const App = () => (
-  <>
-    <h1 className="heading_style">List of top 5 Netflix Series in 2020</h1>
-    {favSeries === "netflix" ? <Netflix /> : <Amazone />}
-  </>
-);
+
+const App = () =>{
+
+    return(
+        <>
+            <h1>  </h1>
+        </>
+    )
+
+
+}
 
 export default App;
