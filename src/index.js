@@ -4,17 +4,15 @@ import "./index.css";
 import App from "./Components/App";
 // import DClock from './DClock';
 // import Events from './Components/Events';
-import Form from './Components/Form';
-
-
+// import Form from './Components/Form';
 
 ReactDOM.render(
   <div>
-//   <App />
+    <App />
     {/* <DClock /> */}
     {/* <Events /> */}
-    <Form />
+    {/* <Form /> */}
   </div>,
 
-  document.getElementById('root')
+  document.getElementById("root")
 );
